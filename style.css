@@ -7,7 +7,6 @@ div{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 500px;
     height: 600px;
     background-attachment: fixed;
     background-position: center;
@@ -15,31 +14,26 @@ div{
     background-size: cover;
 }
 .bg1{
-    background-image: url(fb1.jpeg);
-    width: 100%;
-    height: 100vh;
+    background-image: url(spring.jpeg);
+    object-fit: cover;
 }
 
 .bg2{
-    background-image: url(fb2.jpeg);
-    width: 100%;
-    height: 300px;
+    background-image: url(summer.jpg);
+    object-fit: cover;
 }
 
 .bg3{
-    background-image: url(fb3.jpeg);
-    width: 100%;
-    height: 400px;
+    background-image: url(autumn.jpg);
+    object-fit: cover;
 }
 
 .bg4{
-    background-image: url(fb4.jpeg);
-    width: 100%;
-    height: 100vh;
+    background-image: url(winter.jpg);
+    object-fit: cover;
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
     font-size: larger;
-    color: bisque;
 }
